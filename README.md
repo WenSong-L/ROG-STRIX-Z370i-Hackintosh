@@ -32,6 +32,9 @@
 
 #### 其他问题请参阅 Xjn博客 [使用 OpenCore 引导黑苹果](https://blog.xjn819.com/post/opencore-guide.html)
 
+![](https://github.com/WenSong-L/ROG-STRIX-Z370i-Hackintosh/blob/main/Screenshot/kext.png)
+![](https://github.com/WenSong-L/ROG-STRIX-Z370i-Hackintosh/blob/main/Screenshot/usb.png)
+![](https://github.com/WenSong-L/ROG-STRIX-Z370i-Hackintosh/blob/main/Screenshot/设备.png)
 ![](https://github.com/WenSong-L/ROG-STRIX-Z370i-Hackintosh/blob/main/Screenshot/截屏2020-12-21%20下午11.39.44.png)
 ![](https://github.com/WenSong-L/ROG-STRIX-Z370i-Hackintosh/blob/main/Screenshot/截屏2020-12-21%20下午11.48.20.png)
 ![](https://github.com/WenSong-L/ROG-STRIX-Z370i-Hackintosh/blob/main/Screenshot/截屏2020-12-21%20下午11.48.49.png)
