@@ -5,8 +5,12 @@
    可参考博客自己定制变频优化。
  - 移除 RX5500XT 显卡的参数，非 Navi 显卡依然要删除 boot-args:agdpmod=pikera
  - 补全随机的 PlatformInfo
+ 
+
 [微云](https://share.weiyun.com/neWqa1eb)
 密码：cmtcph
+
+
 
 
 
