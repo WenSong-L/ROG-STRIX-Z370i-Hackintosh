@@ -1,3 +1,15 @@
+#### 2021-01-05更新
+ - 更新opencore0.6.5及部分Kext
+ - 替换CPU电源管理为通用型 SSDT-PLUG-DRTNIA.aml 强烈建议自己定制
+ - 移除 CPUFriend.kext 和 CPUFriendDataProvider.kext 避免可能对其他型号CPU的影响,
+   可参考博客自己定制变频优化。
+ - 移除 RX5500XT 显卡的参数，非 Navi 显卡依然要删除 boot-args:agdpmod=pikera
+ - 补全随机的 PlatformInfo
+[微云](https://share.weiyun.com/neWqa1eb)
+密码：cmtcph
+
+
+
 <font color=#66ccff>**opencore 0.6.4 for 华硕ROG STRIX Z370-I GAMING**</font>
 
 
