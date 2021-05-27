@@ -1,3 +1,12 @@
+#### 2021-05-27更新
+ - 更新opencore0.6.9和Kext
+ - 更新主题，文件体积减小了
+ - 移除不必要的SSDT. 网卡和声卡不再需要注入DeviceProperties
+
+
+
+
+
 #### 2021-01-05更新
  - 更新opencore0.6.5及部分Kext
  - 替换CPU电源管理为通用型 SSDT-PLUG-DRTNIA.aml 强烈建议自己定制
