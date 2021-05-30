@@ -2,8 +2,7 @@
  - 停更！
  - 更新opencore0.6.9和Kext
  - 更新主题，文件体积减小了
- - 移除不必要的SSDT. ~~网卡和声卡不再需要注入DeviceProperties~~ 1820A的DeviceProperties还是要注入！影响系统定位服务。
- 不知道小兵为何注释掉....
+ - 移除不必要的SSDT. 网卡和声卡不再需要注入DeviceProperties
 
 
 
