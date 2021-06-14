@@ -43,6 +43,8 @@
 
  - 更新 opencore0.7.0 和 Kext
  - 更新 主题 Resources 适配 0.7.0
+ - 修改引导扫描策略 ScanPolicy ,扫描文件系统:APFS+HFS+NTFS, 扫描设备类型:SATA+NVMe+USB.
+   如需引导Linux或其他设备类型，请参考opencore官方文档修改ScanPolicy值，或暂时改为 0 .
 
 
 
