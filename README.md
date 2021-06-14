@@ -30,10 +30,11 @@
 
 - ACPI--->SSDT-PLUG-DRTNIA.aml 为 Haswell--Comet Lake 的CPU加载原生电源管理，此文件包含过多代码，仅做第一次安装时使用。安装成功后请参考这里[中文](https://blog.xjn819.com/post/opencore-guide.html)3.4章节 或[英文](https://dortania.github.io/Getting-Started-With-ACPI/ssdt-platform.html#desktop)
 来定制更符合自己CPU的SSDT。
-- ~~非RX5500XT请移除 DeviceProperties--->Add--->PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)~~
+
 - 非Navi显卡请移除 boot-args : agdpmod=pikera
+
 - csr-active-config : E70B0000(Big Sur)  E7030000(Catalina)
-- ~~PlatformInfo--->Generic 已清空~~
+
 
 #### 其他问题请参阅 [使用 OpenCore 引导黑苹果](https://blog.xjn819.com/post/opencore-guide.html) / [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html)
 
