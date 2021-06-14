@@ -6,11 +6,15 @@
 
 #### 主要硬件信息:
 
-- CPU : I3-9300 (PR.PR00)
-- 主板 : 华硕Z370i
-- 显卡 : RX5500XT (Navi)
-- 网卡 : 1820A
-- 其他硬件差异无妨
+|硬件|型号|
+|----|----|
+|CPU|I3-9300|
+|主板|ROG Strix Z370-I Gaming|
+|显卡|RX5500XT (Navi)|
+|核显|UHD630(无输出仅硬解)|
+|网卡|1820A|
+|硬盘|NVMe+SATA SSD|
+
 
 #### 此EFI特性:
 
@@ -24,13 +28,14 @@
 
 #### 注意事项:
 
-- ACPI--->SSDT-PLUG.aml 专为 CPU PR.PR00 定制，非此型号自己修改
+- ACPI--->SSDT-PLUG-DRTNIA.aml 为 Haswell--Comet Lake 的CPU加载原生电源管理，此文件包含过多代码，仅做第一次安装时使用。安装成功后请参考这里[中文](https://blog.xjn819.com/post/opencore-guide.html)3.4章节 或[英文](https://dortania.github.io/Getting-Started-With-ACPI/ssdt-platform.html#desktop)
+来定制更符合自己CPU的SSDT。
 - ~~非RX5500XT请移除 DeviceProperties--->Add--->PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)~~
 - 非Navi显卡请移除 boot-args : agdpmod=pikera
 - csr-active-config : E70B0000(Big Sur)  E7030000(Catalina)
-- PlatformInfo--->Generic 已清空
+- ~~PlatformInfo--->Generic 已清空~~
 
-#### 其他问题请参阅 Xjn博客 [使用 OpenCore 引导黑苹果](https://blog.xjn819.com/post/opencore-guide.html)
+#### 其他问题请参阅 [使用 OpenCore 引导黑苹果](https://blog.xjn819.com/post/opencore-guide.html) / [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html)
 
 -------------------------------------------------------------------------------------------------------------
 
@@ -55,7 +60,7 @@
  - 更新 opencore0.6.5 及部分 Kext
  - 替换CPU电源管理为通用型 SSDT-PLUG-DRTNIA.aml 强烈建议自己定制
  - 移除 CPUFriend.kext 和 CPUFriendDataProvider.kext 避免可能对其他型号CPU的影响,
-   可参考博客自己定制变频优化。
+   可参考博客自己定制变频优化(非必要)。
  - 移除 RX5500XT 显卡的参数，非 Navi 显卡依然要删除 boot-args:agdpmod=pikera
  - 补全随机的 PlatformInfo
  
