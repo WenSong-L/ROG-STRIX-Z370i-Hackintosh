@@ -35,6 +35,8 @@
 
 - csr-active-config : E70B0000(Big Sur)  E7030000(Catalina)
 
+- 4K屏可修改 UIScale 为 02
+
 
 #### 其他问题请参阅 [使用 OpenCore 引导黑苹果](https://blog.xjn819.com/post/opencore-guide.html) / [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html)
 
