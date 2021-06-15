@@ -16,6 +16,20 @@
 |硬盘|NVMe+SATA SSD|
 
 
+#### BIOS设置:
+
+|||
+|----|----|
+|Fast Boot|禁用|
+|CFG Lock|禁用|
+|VT-d|禁用|
+|CSM|禁用|
+|Intel SGX|禁用|
+|Secure Boot|禁用|
+|VT-x|启用|
+|Above 4G decoding|启用|
+
+
 #### 此EFI特性:
 
 - 支持 <font color=red>Big Sur</font> 及 <font color=red>Catalina</font>
