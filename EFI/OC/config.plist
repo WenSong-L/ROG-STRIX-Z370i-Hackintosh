@@ -846,7 +846,7 @@
 			<key>AllowSetDefault</key>
 			<true/>
 			<key>AllowToggleSip</key>
-			<false/>
+			<true/>
 			<key>ApECID</key>
 			<integer>0</integer>
 			<key>AuthRestart</key>
@@ -958,8 +958,6 @@
 				<data>Rg==</data>
 				<key>boot-args</key>
 				<string>-v agdpmod=pikera igfxrpsc=1 alcid=1 brcmfx-country=#a brcmfx-aspm</string>
-				<key>csr-active-config</key>
-				<data>5wsAAA==</data>
 				<key>prev-lang:kbd</key>
 				<data>emgtSGFuczoyNTI=</data>
 				<key>run-efi-updater</key>
