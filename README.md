@@ -59,6 +59,7 @@
 #### 2021-09-07 更新
  - 更新至 opencore0.7.3
  - APFS策略变更，安装Catalina请修改 UEFI-->APFS-->MinDate/MinVersion 请填 -1
+ - 删除csr-active-config，开启AllowToggleSip。OC引导界面可选择 开启/关闭 SIP 。
  - 加强对Linux的引导(OpenLinuxBoot.efi)
 
 
